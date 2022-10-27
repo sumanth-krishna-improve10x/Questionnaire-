@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#CBCCD3"
+    android:orientation="vertical"
+    tools:context=".ComponentsActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="Components"
+        android:textColor="#000000"
+        android:textSize="34sp" />
+
+    <RadioButton
+        android:id="@+id/radio_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#0D84E3"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="RadioButton"
+        android:textColor="#FDFBFB"
+        android:textSize="20sp" />
+
+    <CheckBox
+        android:id="@+id/check_box_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="#0D84E3"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="CheckBox"
+        android:textColor="#EEFFFFFF"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/data_components_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="20dp"
+        android:text="Data Components" />
+
+</LinearLayout>
